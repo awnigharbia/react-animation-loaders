@@ -26,6 +26,6 @@ class App extends Component {
 
 - Available Components 
 1. **First**
-2. **Second **
-3. **Third **
-4. **Fourth **
+2. **Second**
+3. **Third**
+4. **Fourth**

@@ -1,3 +1,3 @@
-# react-animation-loaders
+# React-animation-loaders
 
 - A small tiny package for react loaders 

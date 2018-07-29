@@ -4,7 +4,7 @@
 
 ## Installing
 ```
-npm i --save react-animation-loaders
+npm i --save react-animation-loaders styled-components
 ```
 
 ## Usage

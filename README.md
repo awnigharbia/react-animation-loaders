@@ -12,8 +12,7 @@ npm i --save react-animation-loaders
 - Importing the Component
 
 ```js
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
 import { First, Second, Third, Fourth } from "react-animation-loaders";
 
 const App = () => (
@@ -21,13 +20,33 @@ const App = () => (
 )
 
 ```
-## Demos
+## Examples
 
-
+```js
+const App = () => (
+  <First />
+)
+```
 ![alt text](https://github.com/awnigharbia/react-animation-loaders/blob/master/demos/1.gif "First component")
 
+
+```js
+const App = () => (
+  <Second />
+)
+```
 ![alt text](https://github.com/awnigharbia/react-animation-loaders/blob/master/demos/2.gif "Second component")
 
+```js
+const App = () => (
+  <Third />
+)
+```
 ![alt text](https://github.com/awnigharbia/react-animation-loaders/blob/master/demos/3.gif "Third component")
 
+```js
+const App = () => (
+  <Fourth />
+)
+```
 ![alt text](https://github.com/awnigharbia/react-animation-loaders/blob/master/demos/4.gif "Fourth component")

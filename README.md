@@ -23,21 +23,16 @@ const App = () => (
 ## Props
 - Every component have it's own props as it shown below: 
 
-`**dot1Color**`: Specify the color for the first dot.
-
-`**dot2Color**`: Specify the color for the Second dot.
-
-`**dot3Color**`: Specify the color for the Third dot.
-
-`**dot4Color**`: Specify the color for the Fourth dot(`Specified for the Fourth Component`).
-
-`**dotWidth**`: Specify the width for Dot component.
-
-`**dotHeight**`: Specify the Height for Dot component.
-
-`**wrapperWidth**`: Specify the width for Wrapper component.
-
-`**wrapperHeight**`: Specify the height for Wrapper component.
+| Prop        | Description     | 
+| ------------- |:-------------:| 
+| **dot1Color**      | Specify the color for the first dot. | 
+| **dot2Color**      | Specify the color for the Second dot.      |  
+| **dot3Color** | Specify the color for the Third dot.     |   
+| **dot4Color**      | Specify the color for the Fourth dot(`Specified for the Fourth Component`). | 
+| **dotWidth**      | Specify the width for Dot component.      |  
+| **dotHeight** |Specify the Height for Dot component.     |   
+| **wrapperWidth**      | Specify the width for Wrapper component. | 
+| **wrapperHeight**      | Specify the height for Wrapper component.     |  
 
 
 ## Examples

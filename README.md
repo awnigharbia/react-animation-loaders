@@ -24,7 +24,7 @@ const App = () => (
 - Every component have it's own props as it shown below: 
 
 | Prop        | Description     | 
-| ------------- |:-------------:| 
+| ------------- |:-------------| 
 | **dot1Color**      | Specify the color for the first dot. | 
 | **dot2Color**      | Specify the color for the Second dot.      |  
 | **dot3Color** | Specify the color for the Third dot.     |   

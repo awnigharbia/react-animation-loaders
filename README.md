@@ -24,3 +24,10 @@ const App = () => (
 ## Demos
 
 
+![alt text](https://github.com/awnigharbia/react-animation-loaders/blob/master/demos/1.gif "First component")
+
+![alt text](https://github.com/awnigharbia/react-animation-loaders/blob/master/demos/2.gif "First component")
+
+![alt text](https://github.com/awnigharbia/react-animation-loaders/blob/master/demos/3.gif "First component")
+
+![alt text](https://github.com/awnigharbia/react-animation-loaders/blob/master/demos/4.gif "First component")

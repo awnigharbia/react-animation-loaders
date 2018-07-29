@@ -12,19 +12,39 @@ import Svg from "./svg";
 
 export default class First extends Component {
   render() {
+    const {
+      wrapperWidth,
+      wrapperHeight,
+      dotWidth,
+      dotHeight,
+      dot1Color = "#ffe386",
+      dot2Color = "#10beae",
+      dot3Color = "#f74d75"
+    } = this.props;
+
     return (
-      <Wrapper animation={`${rotateMove} 2s ease-in-out infinite`}>
+      <Wrapper
+        width={wrapperWidth}
+        height={wrapperHeight}
+        animation={`${rotateMove} 2s ease-in-out infinite`}
+      >
         <Svg />
         <Dot
-          color="#ffe386"
+          width={dotWidth}
+          height={dotHeight}
+          color={dot1Color}
           animation={`${dot1Move} 2s ease infinite, ${indexMove} 6s -2s ease infinite`}
         />
         <Dot
-          color="#10beae"
+          width={dotWidth}
+          height={dotHeight}
+          color={dot2Color}
           animation={`${dot2Move} 2s ease infinite, ${indexMove} 6s -4s ease infinite`}
         />
         <Dot
-          color="#f74d75"
+          width={dotWidth}
+          height={dotHeight}
+          color={dot3Color}
           animation={`${dot3Move} 2s ease infinite, ${indexMove} 6s ease infinite`}
         />
       </Wrapper>
